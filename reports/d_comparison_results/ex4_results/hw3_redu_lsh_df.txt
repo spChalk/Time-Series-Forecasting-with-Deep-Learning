@@ -1,0 +1,146 @@
+Query: x
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: mu
+True Nearest neighbor: mu
+distanceApproximate: 0.00016135
+distanceTrue: 0.00016135
+
+Query: xel
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: cms
+True Nearest neighbor: cms
+distanceApproximate: 1.55568e-05
+distanceTrue: 1.55568e-05
+
+Query: xl
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: cce
+True Nearest neighbor: cce
+distanceApproximate: 6.4373e-05
+distanceTrue: 6.4373e-05
+
+Query: xlnx
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: dwdp
+True Nearest neighbor: dwdp
+distanceApproximate: 0.000113189
+distanceTrue: 0.000113189
+
+Query: xom
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: slb
+True Nearest neighbor: slb
+distanceApproximate: 0.000169158
+distanceTrue: 0.000169158
+
+Query: xray
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: gis
+True Nearest neighbor: gis
+distanceApproximate: 0.00010407
+distanceTrue: 0.00010407
+
+Query: xrx
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: itt
+True Nearest neighbor: itt
+distanceApproximate: 0.000163019
+distanceTrue: 0.000163019
+
+Query: yum
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: mmc
+True Nearest neighbor: mmc
+distanceApproximate: 0.000122726
+distanceTrue: 0.000122726
+
+Query: zbh
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: ecl
+True Nearest neighbor: ecl
+distanceApproximate: 0.000198126
+distanceTrue: 0.000198126
+
+Query: zion
+Algorithm: LSH_Continuous_Frechet
+Approximate Nearest neighbor: snv
+True Nearest neighbor: snv
+distanceApproximate: 8.91089e-05
+distanceTrue: 8.91089e-05
+
+tApproximateAverage: 0.0270122
+tTrueAverage: 0.00598291
+MAF: 1
+Query: x
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: mu
+True Nearest neighbor: mu
+distanceApproximate: 0.00016135
+distanceTrue: 0.00016135
+
+Query: xel
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: cms
+True Nearest neighbor: cms
+distanceApproximate: 1.55568e-05
+distanceTrue: 1.55568e-05
+
+Query: xl
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: cce
+True Nearest neighbor: cce
+distanceApproximate: 6.4373e-05
+distanceTrue: 6.4373e-05
+
+Query: xlnx
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: dwdp
+True Nearest neighbor: dwdp
+distanceApproximate: 0.000113189
+distanceTrue: 0.000113189
+
+Query: xom
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: slb
+True Nearest neighbor: slb
+distanceApproximate: 0.000169158
+distanceTrue: 0.000169158
+
+Query: xray
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: gis
+True Nearest neighbor: gis
+distanceApproximate: 0.00010407
+distanceTrue: 0.00010407
+
+Query: xrx
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: itt
+True Nearest neighbor: itt
+distanceApproximate: 0.000163019
+distanceTrue: 0.000163019
+
+Query: yum
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: mmc
+True Nearest neighbor: mmc
+distanceApproximate: 0.000122726
+distanceTrue: 0.000122726
+
+Query: zbh
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: ecl
+True Nearest neighbor: ecl
+distanceApproximate: 0.000198126
+distanceTrue: 0.000198126
+
+Query: zion
+Algorithm: LSH_Discrete_Frechet
+Approximate Nearest neighbor: snv
+True Nearest neighbor: snv
+distanceApproximate: 8.91089e-05
+distanceTrue: 8.91089e-05
+
+tApproximateAverage: 0.00688229
+tTrueAverage: 0.00652657
+MAF: 1
