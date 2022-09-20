@@ -1,10 +1,7 @@
 """
-Software Development for Algorithmic Problems
-Assignment 3 - Supervised Learning with Neural Networks
+Time Series Forecasting with Deep Learning
 ---
-Team no.59
-Maraziaris Charalampos - 1115 2018 00105
-Chalkias Spyridon - 1115 2018 00209
+Chalkias Spyridon - Maraziaris Charalampos
 """
 
 import datetime
