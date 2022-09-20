@@ -1,6 +1,6 @@
 # Time-Series-Forecasting-with-Deep-Learning
 
-*Implemented by Spyridon Chalkias & Charalampos Maraziaris*
+*Implemented by [Spiros Chalkias](https://github.com/spChalk) & [Harry Maraziaris](https://github.com/cmaraziaris)*
 
 This project is seperated into 4 topics:
 - **A:** Time series forecasting 
