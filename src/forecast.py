@@ -1,10 +1,7 @@
 """
-Software Development for Algorithmic Problems
-Assignment 3 - Supervised Learning with Neural Networks
+Time Series Forecasting with Deep Learning
 ---
-Team no.59
-Maraziaris Charalampos - 1115 2018 00105
-Chalkias Spyridon - 1115 2018 00209
+Chalkias Spyridon - Maraziaris Charalampos
 """
 
 import datetime
@@ -255,15 +252,15 @@ if __name__ == "__main__":
         num_of_timeseries = int(args.number_of_time_series_selected)
     
         hyperparameters = {'lstm_dims':[100, 100], 'dropout':0.25, 'n_time_steps':60, 'lag':2, 'batch_size':128, 'max_epochs':100}
-        #A__train_model_for_N_stocks(df, hyperparameters, num_of_timeseries)
+        A__train_model_for_N_stocks(df, hyperparameters, num_of_timeseries)
 
-        loaded_model = tf.keras.models.load_model('./saved_models/forecast_model_trained_on_all_stocks.h5')
-        A__test_model_on_N_stocks(df, loaded_model, hyperparameters, num_of_timeseries)
+        #loaded_model = tf.keras.models.load_model('./saved_models/forecast_model_trained_on_all_stocks.h5')
+        #A__test_model_on_N_stocks(df, loaded_model, hyperparameters, num_of_timeseries)
     else:
         hyperparameters = {'lstm_dims':[500, 500, 500, 500, 500], 'dropout':0.25, 'label':'aapl', 'n_time_steps':60, 'lag':2, 'batch_size':128, 'max_epochs':100}
-        #A__train_model_for_a_stock(df, hyperparameters)
+        A__train_model_for_a_stock(df, hyperparameters)
 
-        loaded_model = tf.keras.models.load_model('./saved_models/forecast_model_trained_on_AAPL.h5')
-        A__test_model_on_a_stock(df, loaded_model, hyperparameters, 'AAPL')
+        #loaded_model = tf.keras.models.load_model('./saved_models/forecast_model_trained_on_AAPL.h5')
+        #A__test_model_on_a_stock(df, loaded_model, hyperparameters, 'AAPL')
 
 ### EOF ###
