@@ -1,10 +1,7 @@
 """
-Software Development for Algorithmic Problems
-Assignment 3 - Supervised Learning with Neural Networks
+Time Series Forecasting with Deep Learning
 ---
-Team no.59
-Maraziaris Charalampos - 1115 2018 00105
-Chalkias Spyridon - 1115 2018 00209
+Chalkias Spyridon - Maraziaris Charalampos
 """
 
 import argparse
@@ -217,10 +214,10 @@ if __name__ == "__main__":
     df = pd.concat((input_df, query_df), axis=1)
 
     hyperparameters = {'conv_filters':[10, 10, 5], 'kernels':[3, 3, 3], 'batch_size':64, 'max_epochs':75, 'window_size':30, 'latent_dim':3}
-    #predictions = C__train_model_for_N_stocks(df, hyperparameters, len(df.columns))
+    predictions = C__train_model_for_N_stocks(df, hyperparameters, len(df.columns))
     
-    loaded_model = tf.keras.models.load_model('./saved_models/reduce_model_trained_on_all_stocks.h5')
-    predictions = C__test_model_on_N_stocks(df, loaded_model, hyperparameters, len(df.columns))
+    #loaded_model = tf.keras.models.load_model('./saved_models/reduce_model_trained_on_all_stocks.h5')
+    #predictions = C__test_model_on_N_stocks(df, loaded_model, hyperparameters, len(df.columns))
 
     def write_data_to_out_file(out_filename, df, predictions):
         with open(out_filename, 'w', encoding = 'utf-8') as out:
