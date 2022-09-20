@@ -41,7 +41,7 @@ The filesystem structure is as follows:
 - `/src/forecast.py` :  File used for **time series forecasting**.
 - `/src/detect.py` : File used for **time series anomaly detection** with LSTM autoencoders.
 - `/src/reduce.py` : File used for **compression** of stock market time series using autoencoders.
-- `/src/time_series.ipynb` : The python notebook used in order to train the models and tune the data!
+- `/src/time-series-forecasting.ipynb` : The python notebook used in order to train the models and tune the data!
 - `/data/nasdaq2007_17.csv` : Data file used in topics A and B.
 - `/data/input.csv` : Input file used in topic C.
 - `/data/query.csv` : Query file used in topic C.
